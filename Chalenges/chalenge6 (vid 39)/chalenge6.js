@@ -1,3 +1,5 @@
+//??????????????????? DONE ???????????????
+
 //! 1
 //* use switch 
 
@@ -29,11 +31,13 @@ switch(job)
         salery=8000;
         console.log(salery);
         break;
-    case ("IT" || "Support"):
+    case "IT":
+    case "Support":
         salery=6000;
         console.log(salery);
         break;
-    case "Developer" || "Designer":
+    case "Developer":
+    case "Designer":
         salery=7000;
         console.log(salery);
         break;
@@ -67,4 +71,25 @@ switch(holidays)
         money=1000;
         console.log(`My money is ${money}`);
         break;
+}
+
+if (holidays==0)
+{
+    money=5000;
+    console.log(`My money is ${money}`);
+}
+else if (holidays==1 || holidays==2)
+{
+    money=3000;
+    console.log(`My money is ${money}`);
+}
+else if(holidays == 3)
+{
+    money=2000;
+    console.log(`My money is ${money}`);
+}
+else 
+{
+    money=1000;
+    console.log(`My money is ${money}`);
 }
