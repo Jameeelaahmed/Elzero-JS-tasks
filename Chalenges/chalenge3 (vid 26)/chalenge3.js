@@ -11,7 +11,7 @@ let d=2.44;
 //! 2
 //* use variable a + d One time to get the needed output 
 
-//console.log(a + ); //? 10000
+//console.log(Math.pow(a,Math.trunc(d))); //? 10000
 
 //! 3
 
@@ -26,5 +26,5 @@ let d=2.44;
 
 //* use variable b+d to get this values 
 
-console.log(); //? 66.67 => string 
-console.log(); //? 67    => number 
+console.log((Math.trunc(b)/Math.ceil(d)).toFixed(2)); //? 66.67 => string 
+console.log(Math.floor(Math.trunc(b)/Math.ceil(d))); //? 67    => number 
