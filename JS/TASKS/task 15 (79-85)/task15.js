@@ -1,4 +1,4 @@
-//? not done 
+//?????????? DONE
 //! 1
 
 // Create Your Object Here
@@ -85,54 +85,64 @@
 
 
 //! 4 
-//????????????????????????????????????????????????????????????
-// The Object To Work With
-let myFavGames = {
-    "Trinity Universe": {
-      publisher: "NIS America",
-      price: 40,
-    },
+// // The Object To Work With
+// let myFavGames = {
+//     "Trinity Universe": {
+//       publisher: "NIS America",
+//       price: 40,
+//     },
 
-    "Titan Quest": {
-      publisher: "THQ",
-      bestThree: {
-        one: "Immortal Throne",
-        two: "Ragnarök",
-        three: "Atlantis",
-      },
-      price: 50,
-    },
-    YS: {
-      publisher: "Falcom",
-      bestThree: {
-        one: "Oath in Felghana",
-        two: "Ark Of Napishtim",
-        three: "origin",
-      },
-      price: 40,
-    },
-  };
-  
-  // Code One => How To Get Object Length ?
-  let objectl = Object.keys(myFavGames).length;
-  // console.log(objectl);
-  
-  let game=Object.keys(myFavGames);
-  for (let i = 0; i < objectl; i++) {
-    console.log(`The Game Name Is ${game[i]}`);
-    console.log(`The Publisher Is ${myFavGames[game[i]]["publisher"]}`);
-    console.log(`The Price Is ${myFavGames[game[i]]["price"]}`);
-  
-    // Check If Nested Object Has Property (bestThree)
-    if (Object.hasOwn(myFavGames[game[i]],"bestThree")) {
-      console.log("- Game Has Releases");
-      console.log(`First => ${myFavGames[game[i]]["bestThree"]["one"]}`);
-      console.log(`Second => ${myFavGames[game[i]]["bestThree"]["two"]}`);
-      console.log(`Third => ${myFavGames[game[i]]["bestThree"]["three"]}`);
-    }
-    console.log("#".repeat(20));
-  }
-  
+//     "Titan Quest": {
+//       publisher: "THQ",
+//       bestThree: {
+//         one: "Immortal Throne",
+//         two: "Ragnarök",
+//         three: "Atlantis",
+//       },
+//       price: 50,
+//     },
+//     YS: {
+//       publisher: "Falcom",
+//       bestThree: {
+//         one: "Oath in Felghana",
+//         two: "Ark Of Napishtim",
+//         three: "origin",
+//       },
+//       price: 40,
+//     },
+//   };
+//   // Code One => How To Get Object Length ?
+//   let objectl=Object.keys(myFavGames).length;
+//   let game=Object.keys(myFavGames);
+
+//   for(let i=0; i<objectl; i++)
+//   {
+//     //*with bracket notation
+//     console.log(`The Game Name Is ${game[i]}`);
+//     console.log(`The Publisher Is ${myFavGames[game[i]]["publisher"]}`);
+//     console.log(`The Price Is ${myFavGames[game[i]]["price"]}`);
+//     //*with dot notation
+//     console.log(`The Game Name Is ${game[i]}`);
+//     console.log(`The Publisher Is ${myFavGames[game[i]].publisher}`);
+//     console.log(`The Price Is ${myFavGames[game[i]].price}`);
+
+//     if(Object.hasOwn(myFavGames[game[i]].bestThree))
+//     {
+//       //*with bracket notation
+//       console.log("- Game Has Releases");
+//       console.log(`First => ${myFavGames[game[i]]["bestThree"]["one"]}`);
+//       console.log(`seconf => ${myFavGames[game[i]]["bestThree"]["two"]}`);
+//       console.log(`third => ${myFavGames[game[i]]["bestThree"]["three"]}`);
+//       //*with dot notation
+//       // console.log("- Game Has Releases");
+//       // console.log(`First => ${myFavGames[game[i]].bestThree.one}`);
+//       // console.log(`seconf => ${myFavGames[game[i]].bestThree.two}`);
+//       // console.log(`third => ${myFavGames[game[i]].bestThree.three}`);
+
+//     }
+//     console.log("#".repeat(20));
+//   }
+
   // Ouput
   
   // "The Game Name Is Trinity Universe"
