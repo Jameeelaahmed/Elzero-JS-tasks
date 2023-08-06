@@ -1,4 +1,4 @@
-//! using for loop to the example in vid --> 92
+//! using for loop --> example in vid --> 92
 // for(let i=0;i<=10;i++)
 // {
 //     let myMainElement = document.createElement("div");
@@ -24,7 +24,7 @@
 //     myMainElement.className=("product");
 //     document.body.appendChild(myMainElement);
 // }
-//????????????
+// ///????????????
 // document.links[0].onmouseenter=function(event)
 // {
 //     console.log(event);
@@ -147,3 +147,22 @@
 //         img[i].alt="Elzero New";
 //     }
 // }
+
+//! 6
+
+// let input1=document.getElementsByTagName("input")[0];
+// let input2=document.getElementsByTagName("input")[1];
+// let select=document.getElementsByTagName("select")[0];
+// let num;
+// let word;
+
+// input1.oninput=function(){
+//     num=input1.value;
+//     console.log(num)
+// }
+
+// input2.oninput=function(){
+//     word=input2.value;
+// }
+
+// //console.log(num+ ' '+ word);

@@ -1,4 +1,4 @@
-
+//? not done 
 //! 1
 
 // Create Your Object Here
@@ -85,7 +85,7 @@
 
 
 //! 4 
-
+//????????????????????????????????????????????????????????????
 // The Object To Work With
 let myFavGames = {
     "Trinity Universe": {
@@ -114,43 +114,45 @@ let myFavGames = {
   };
   
   // Code One => How To Get Object Length ?
-  let objectLength = myFavGames.objectLength;
-  console.log(objectLength);
+  let objectl = Object.keys(myFavGames).length;
+  // console.log(objectl);
   
-  for (let i = 0; i < objectLength; i++) {
-    console.log(`The Game Name Is ???????`);
-    console.log(`The Publisher Is ???????`);
-    console.log(`The Price Is ???????`);
+  let game=Object.keys(myFavGames);
+  for (let i = 0; i < objectl; i++) {
+    console.log(`The Game Name Is ${game[i]}`);
+    console.log(`The Publisher Is ${myFavGames[game[i]]["publisher"]}`);
+    console.log(`The Price Is ${myFavGames[game[i]]["price"]}`);
   
     // Check If Nested Object Has Property (bestThree)
-    if (???????) {
+    if (Object.hasOwn(myFavGames[game[i]],"bestThree")) {
       console.log("- Game Has Releases");
-      console.log(`First => ???????`);
-      console.log(`Second => ???????`);
-      console.log(`Third => ???????`);
+      console.log(`First => ${myFavGames[game[i]]["bestThree"]["one"]}`);
+      console.log(`Second => ${myFavGames[game[i]]["bestThree"]["two"]}`);
+      console.log(`Third => ${myFavGames[game[i]]["bestThree"]["three"]}`);
     }
     console.log("#".repeat(20));
   }
   
   // Ouput
   
-  "The Game Name Is Trinity Universe"
-  "The Publisher Is NIS America"
-  "The Price Is 40"
-  "####################"
-  "The Game Name Is Titan Quest"
-  "The Publisher Is THQ"
-  "The Price Is 50"
-  "- Game Has Releases"
-  "First => Immortal Throne"
-  "Second => Ragnarök"
-  "Third => Atlantis"
-  "####################"
-  "The Game Name Is YS"
-  "The Publisher Is Falcom"
-  "The Price Is 40"
-  "- Game Has Releases"
-  "First => Oath in Felghana"
-  "Second => Ark Of Napishtim"
-  "Third => origin"
-  "####################"
+  // "The Game Name Is Trinity Universe"
+  // "The Publisher Is NIS America"
+  // "The Price Is 40"
+  // "####################"
+  // "The Game Name Is Titan Quest"
+  // "The Publisher Is THQ"
+  // "The Price Is 50"
+  // "- Game Has Releases"
+  // "First => Immortal Throne"
+  // "Second => Ragnarök"
+  // "Third => Atlantis"
+  // "####################"
+  // "The Game Name Is YS"
+  // "The Publisher Is Falcom"
+  // "The Price Is 40"
+  // "- Game Has Releases"
+  // "First => Oath in Felghana"
+  // "Second => Ark Of Napishtim"
+  // "Third => origin"
+  // "####################"
+
