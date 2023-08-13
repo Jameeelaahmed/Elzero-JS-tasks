@@ -1,0 +1,64 @@
+<!-- ! 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <div>
+            <label id="us">Username</label>
+            <input for="us"type="text" autofocus minlength="5" maxlength="20" name="Username">
+        </div>
+        <div >
+            <label id="mail">Email</label>
+            <input for="mail" type="email" readonly value="o@o.com" name="mail">
+        </div>
+        <div hidden>
+            <label id="tok">Token</label>
+            <input for="tok" type="text" name="Token" value="b92f1fc2fce391ad7af633723afd3055" name="tok">
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <input id="pro" type="checkbox" name="skils">
+            <label for="pro">Problem Solving</label> <br>
+            <input id="log" type="checkbox" name="skils">
+            <label for="log">Logical thinking</label> <br>
+            <input id="adv" type="checkbox" name="skils">
+            <label for="adv">Advanced Search </label><br>
+            <input id="ana" type="checkbox" name="skils">
+            <label for="anl">Analysis Plannig </label><br>
+            <h3>jobs</h3>
+            <input id="front" type="radio" name="job">
+            <label for="front">Front-End Developer</label><br>
+            <input id="Back" type="radio" name="job">
+            <label for="Back">Back-End Developer</label><br>
+            <input id="buis" type="radio" name="job">
+            <label for="buis">Business Analyst</label><br>
+            <input id="proj" type="radio" name="job">
+            <label for="proj">Project Manager</label><br>
+            <input id="scr" type="radio" name="job">
+            <label for="scr">Scrum Master</label><br>
+        </div>
+        <label>Choose Book</label>
+        <select>
+            <optgroup label="PHB"></optgroup>
+            <option>v5.0 </option>
+            <option>v7.0</option>
+            <option>v8.0</option>
+            <optgroup label="Python"></optgroup>
+            <option>v2.0</option>
+            <option>v3.0</option>
+            <option>v3.9</option>
+        </select>
+        <br>
+        <textarea></textarea>
+        <br>
+        <input type="reset">
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
