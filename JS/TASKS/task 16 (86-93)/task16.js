@@ -1,3 +1,4 @@
+// ??????????? DONEEEE ???????????
 //! using for loop --> example in vid --> 92
 // for(let i=0;i<=10;i++)
 // {
@@ -166,3 +167,54 @@
 // }
 
 // //console.log(num+ ' '+ word);
+
+function test(event) {
+    event.preventDefault(); 
+    let num = document.getElementsByClassName("input")[0].value;
+    let text= document.getElementsByClassName("input")[1].value;
+    let select=document.getElementsByClassName("input")[2].value;
+    let results=document.querySelector(".results");
+
+    document.querySelectorAll(".box").forEach(event => event.remove());
+
+    for(let i=1;i<=num;i++)
+    {
+        //*Create DIV or SECTION
+        let myElement=document.createElement(`${select}`);
+        //* Add Class 
+        let myAtt1=document.createAttribute("class");
+        myAtt1.value="box";
+        myElement.setAttributeNode(myAtt1);
+        //* ADD title 
+        let myAtt2=document.createAttribute("title");
+        myAtt2.value="Element";
+        myElement.setAttributeNode(myAtt2);
+        //* add ID
+        let myID=document.createAttribute("id");
+        myID.value="id-"+i;
+        myElement.setAttributeNode(myID);
+        //* add Text value
+        let myText=document.createTextNode(`${text}`);
+        myElement.appendChild(myText);
+        //! style 
+        myElement.style.display="inline-block";
+        myElement.style.backgroundColor="#6e6885";
+        myElement.style.color="white";
+        myElement.style.margin="10px";
+        myElement.style.padding="10px";
+        myElement.style.borderRadius="10px";
+        myElement.style.width="100px";
+        myElement.style.textAlign="center";
+        myElement.style.fontSize="20px";
+        myElement.style.fontWeight="200";
+        //* appent div or section to body 
+        results.appendChild(myElement);
+    }
+}
+
+  // myElement.style.flexWrap="wrap";
+        // myElement.style.gap="15px";
+        // myElement.style.padding="10px";
+        // myElement.style.justifyContent="center";
+        // myElement.style.boxSizing="border-box"
+        // myElement.style.gridTemplateColumns="repeat(3,auto)";
