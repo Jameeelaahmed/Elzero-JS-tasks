@@ -1,0 +1,71 @@
+/** DONE **/
+
+/* ! 1 */
+/* div{
+margin: 10px;
+padding: 10px;
+width: 400px;
+text-align: center;
+font-weight:bold ;
+font-size: 23px;
+text-shadow:  0.5px 0.5px 0px black ,1px 1px 0px #FF0000,1.5px 1.5px 0px blue, 2px 2px 0px blueviolet;
+} */
+
+/* ! 2 */
+/* .one ,.two , .three{
+    background-color: #f9f9f9;
+    padding:20px;
+    margin: 20px auto;
+    width: 400px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.one{
+text-transform:uppercase;
+}
+
+.two{
+text-transform: capitalize;
+}
+
+.three{
+text-transform: lowercase;
+} */
+
+/* ! 3 */
+/* .one , .two,.three{
+background-color: #f9f9f9;
+margin: 10px;
+padding: 10px;
+width: 400px;
+}
+
+.two{
+    white-space: nowrap;
+    overflow: hidden;;
+    
+}
+
+.three{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */
+
+/* ! 4 */
+
+a{
+    display: block;
+background-color: greenyellow;
+text-decoration: none;
+color: green;
+padding: 10px;
+margin: 10px auto;
+width: fit-content;
+font-size: 23px;
+font-weight: bold;
+border-bottom:5px solid green;
+text-transform: capitalize;
+}
