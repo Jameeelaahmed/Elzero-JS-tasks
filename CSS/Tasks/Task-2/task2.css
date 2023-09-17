@@ -1,0 +1,129 @@
+/** DONE */
+
+/* ! 1 */
+
+/* div{
+    width: 500px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+.assign-1-shape-1{
+    background-color: rgb(138,43,226);
+}
+    
+
+.assign-1-shape-2{
+background-color: rgb(138,43,226,50%);
+}
+
+
+.assign-1-shape-3{
+background-color: rgb(138,43,226,5%);
+} */
+
+/* ! 2 */
+
+/* div {
+    width: 400px;
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.assign-2-shape-1 {
+    background-color: #f9f9f9;
+
+    background-repeat: no-repeat;
+}
+
+
+.assign-2-shape-2 {
+    background-color: #f9f9f9;
+
+    background-repeat: repeat-y;
+}
+
+
+.assign-2-shape-3 {
+    background-color: #f9f9f9;
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+    background-color: #f9f9f9;
+    background-repeat: repeat;
+} */
+
+/* ! 3 */
+
+/* div {
+    width: 400px;
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.assign-3-shape-1 {
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+}
+
+
+.assign-3-shape-2 {
+    background-color: #f9f9f9;
+    background-repeat: repeat-y;
+    background-position: right ;
+}
+
+
+.assign-3-shape-3 {
+    background-color: #f9f9f9;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-3-shape-4 {
+    background-color: #f9f9f9;
+    background-repeat: repeat;
+} */
+
+/* ! 4 */
+
+div {
+    width: 400px;
+    height: 400px;
+    background-image: url(css-assignment-5-8.png);
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.assign-4-shape-1 {
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+.assign-4-shape-2 {
+    background-color: #f9f9f9;
+    background-repeat: repeat-y;
+    background-position: right ;
+    background-size: 80%;
+}
+
+
+.assign-4-shape-3 {
+    background-color: #f9f9f9;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+}
+
+.assign-4-shape-4 {
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
