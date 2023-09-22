@@ -1,0 +1,168 @@
+/* ************DONE ***************** */
+
+/* ! 1 */
+/* div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.green{
+    left: 30px;
+    top:20px;
+    background-color: lightseagreen;
+    z-index: 3;
+}
+
+.red{
+    background-color: lightcoral;
+    z-index: 4;
+    top:30px;
+    left:50px;
+}
+
+.blue{
+    background-color: lightskyblue;
+    z-index:2 ;
+}
+
+.black{
+    
+    top:20px;
+    background-color: black;
+    z-index: 1;
+} */
+
+/* ! 2 */
+/* 
+div{
+    background-color: #eee;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    border-top:  3px solid red;
+    border-bottom:  3px solid red;
+    border-right:  3px solid rgb(94, 94, 158);
+    border-left:  3px solid rgb(94, 94, 158);
+    text-align: center;
+    
+}
+
+.top-left{
+    position: absolute;
+    padding: 5px 10px;
+    text-align: center;
+    border-right: 3px solid red;         
+    top: -15px;
+    left:-15px;
+    background-color:rgb(94, 94, 158);
+}
+
+.top-right{
+    position: absolute;
+    padding: 5px 10px;
+    text-align: center;
+    border-left: 3px solid red;
+    top: -15px;
+    right:-15px;
+    background-color:rgb(94, 94, 158);
+}
+
+.bottom-left{
+    position: absolute;
+    padding: 5px 10px;
+    text-align: center;
+    border-right: 3px solid red;         
+    bottom: -15px;
+    left:-15px;
+    background-color:rgb(94, 94, 158);
+}
+
+.bottom-right{
+    position: absolute;
+    padding: 5px 10px;
+    text-align: center;
+    border-left: 3px solid red;
+    bottom: -15px;
+    right:-15px;
+    background-color:rgb(94, 94, 158);
+} */
+
+/* ! 3 */
+
+/* .outside{
+    background-color: #eee;
+    margin: 5px;
+    padding: 20px;
+    list-style: none;
+}
+.inside{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.one{
+    list-style-type: decimal;
+}
+
+.two{
+    list-style-type:upper-roman;
+}
+ol{
+    background-color: #eee;
+    padding: 20px;
+
+} */
+
+/* ! 4 */
+p{ 
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+th{
+    padding: 15px;
+    background-color: rgb(94, 7, 7);
+    color:white ;
+}
+
+td{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.view{
+    background-color: rgb(25, 210, 25);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.delete{
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.view:hover{
+    background-color: white;
+    color:black;
+}
+.delete:hover{
+    background-color: white;
+    color:black;
+}

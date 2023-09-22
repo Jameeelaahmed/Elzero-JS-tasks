@@ -1,0 +1,55 @@
+/* ! 1 */
+/* .one {
+    border: 3px solid red;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.one p {
+    border: inherit;
+    padding: inherit;
+    background-color: #992e2e;
+}
+
+.two {
+    border: 3px solid green;
+    text-align: center;
+    padding: 10px;
+}
+
+.two p {
+    border: inherit;
+    padding: inherit;
+    background-color: lightseagreen;
+} */
+
+/* ! 2 */
+
+/* .first{
+    font-family: 'Open Sans', sans-serif;
+}
+.second{
+    font-family: 'Cairo', sans-serif;
+}
+
+.third{
+    font-family: 'Jomhuria', cursive;
+} */
+
+/* ! 3 */
+
+*{
+font-size: 20px;
+text-align: center;
+}
+
+.first-3{
+    font-size: 2.5rem;
+}
+.second-3{
+    font-size: 2rem;
+}
+.third-3{
+    font-size: 1.5rem;
+}
