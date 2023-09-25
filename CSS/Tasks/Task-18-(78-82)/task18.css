@@ -1,0 +1,47 @@
+/**** NOT DONE ****/
+
+/* ! 1 */
+
+/* div.main.red{
+    color: red;
+} */
+
+/* ! 2 */
+
+/* .parent .child:nth-child(2){
+    color: red;
+} */
+
+/* ! 3 */
+/* .parent:nth-child(2){
+    color: red;
+} */
+
+/* ! 4 */
+
+/*****NOT DONE****/
+/* div:nth-child(4),
+div[title=Hello],
+div[title=HTML]{
+    color: red;
+} */
+
+/* ! 5 */
+
+/* div:nth-child(2) div{
+    color: red;
+} */
+
+/* ! 6 */
+/*****NOT DONE****/
+
+/* div:nth-child(3),div:nth-child(4){
+    color: red;
+} */
+
+/* ! 7 */
+
+div+h3+div{
+    color: red;
+}
+
