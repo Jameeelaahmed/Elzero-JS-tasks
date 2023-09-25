@@ -1,0 +1,124 @@
+/* ***** DONE **** */
+
+*{
+    box-sizing: border-box;
+}
+
+/* ! 1  */
+/* div{
+    background-color: #ddd;
+    width: 300px;
+    height: 200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    position: relative;
+    color: #03a9f4;
+    font-size: xx-large;
+}
+
+div::before{
+    content: "";
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    background-color: #f33446;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+div::after{
+    content: "";
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    background-color: #03a9f4;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+} */
+
+/* ! 2  */
+
+div{
+    background-color: #ddd;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+div::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid;
+    border-color: #03a9f4 #03a9f4 #03a9f4 white;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+
+div::before{
+    content: "";
+    position: absolute;
+    width:220px;
+    height: 220px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 10px solid;
+    border-color: #f33446  white #f33446 #f33446;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition-delay: 0.5s;
+}
+    
+    div:hover::before{
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+}
+
+div:hover::after{
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+}

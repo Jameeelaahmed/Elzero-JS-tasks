@@ -1,0 +1,128 @@
+
+/* ! 1 */
+/* @media print{
+    div{
+        font-size: 40px;
+    }
+} */
+
+/* ! 2 */
+
+/* .parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: #ddd;
+}
+
+.child{
+    background-color: #eee;
+    margin:2%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ch1{
+    margin-bottom: 1%;
+    font-size: large;
+    font-weight: bold;
+}
+@media (max-width:767px){
+    .child{
+        width: 96%;
+        
+    }
+}
+
+
+@media (min-width:768px){
+    .child{
+        width: 38%;
+    }
+    .ch1{
+        color: red;
+    }
+}
+
+
+@media (min-width:992px){
+    .child{
+        width: 13%;
+    }
+
+    .ch1{
+        color: aqua;
+    }
+} */
+
+/* ! 3 */
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    background-color: #ddd;
+}
+
+.child1,
+.child2,
+.child3,
+.child4{
+    background-color: #eee;
+    margin:2%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ch1{
+    margin-bottom: 1%;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+@media (max-width:767px){
+    .child1,
+    .child2,
+    .child3,
+    .child4{
+        width: 88%;
+    }
+}
+
+
+@media (min-width:768px){
+    .ch1{
+        color: red;
+    }
+    .child1{
+        width: 88%;
+    }
+    .child2,
+    .child3,
+    .child4{
+        width:calc(64% /3)
+    }
+}
+
+@media (min-width:992px){
+    .child1,
+    .child4{
+        width: 88%;
+    }
+
+    .child2,
+    .child3{
+        width: calc(76%/2);
+    }
+
+    .ch1{
+        color: aqua;
+    }
+}
