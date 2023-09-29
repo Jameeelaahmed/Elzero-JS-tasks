@@ -2,5 +2,5 @@
 here are the answers of elzero HTML-JS tasks and chalenges
 
 * HTML --> DONE
-* CSS  --> Ongoing
+* CSS  --> DONE
 * JS   --> Ongoing
