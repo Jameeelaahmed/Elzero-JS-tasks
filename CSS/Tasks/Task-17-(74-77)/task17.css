@@ -173,3 +173,168 @@ div::after{
 }
 } */
 
+/* ! 4 */
+
+.parent{
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    /* gap: 2px 0px; */
+    background-color: #eee;
+    justify-content: center;
+    align-items: center; 
+    grid-template-columns: repeat(2,240px);
+    grid-template-rows: auto; 
+}
+
+    
+.E div,
+.L div{
+    background-color: #323234;
+}
+
+.E{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(7,40px);
+    position: relative;
+}
+
+.one{
+    grid-area: 1/1/2/5;
+}
+
+.two{
+    grid-area: 1/1/5/2;
+}
+.three{
+    grid-area: 4/1/5/5;
+}
+.four{
+    grid-area:4/1/8/2;
+}
+.five{
+    grid-area: 7/1/8/5;
+}
+
+.E::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #fea604;
+    position: absolute;
+    top: 7px;
+    left: 170px;
+    animation-name: move-E;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes move-E{
+    0%{
+        top: 7px;
+        left: 170px;
+    }
+    10%{
+        top: 7px;
+        left: 48px;
+    }
+    20%{
+        top: 128px;
+        left: 48px;
+    }
+    30%{
+        top: 128px;
+        left: 170px;
+    }
+    40%{
+        top: 128px;
+        left: 48px;
+    }
+    50%{
+        top: 247px;
+        left: 48px;
+    }
+    60%{
+        top: 247px;
+        left: 170px;
+    }
+    70%{
+        top: 247px;
+        left: 48px;
+    }
+    80%{
+        top: 128px;
+        left: 48px;
+    }
+    90%{
+        top: 7px;
+        left: 48px;
+    }
+    100%{
+        top: 7px;
+        left: 170px;
+    }
+}
+
+.L{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,40px);
+    grid-template-rows: repeat(7,40px);
+    position: relative;
+}
+
+.first{
+    grid-area: 1/1/8/2;
+}
+.second{
+    grid-area: 7/1/8/5;
+}
+
+.L::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #fea604;
+    position: absolute;
+    top: 7px;
+    left: 48px;
+    opacity: 0;
+    animation-name: move-L;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes move-L{
+    0%{
+        top: 247px;
+        left: 170px;
+        opacity: 0;
+    }
+    25%{
+        top: 247px;
+        left: 109px;
+        opacity: 1;
+    }
+    50%{
+        top: 247px;
+        left: 48px;
+        opacity: 1 ;
+    }
+    75%{
+        top: 127px;
+        left: 48px;
+        opacity: 1 ;
+    }
+    100%{
+        top: 7px;
+        left: 48px;
+        opacity: 0;
+    }
+}
