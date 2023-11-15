@@ -26,7 +26,7 @@
 // console.log("Message two");
 
 //!  5
-// console.table(["jameela","ahmed","abdltuhman"]);
+// console.table(["jameela","ahmed","abdlruhman"]);
 
 //!  6
 // console.log("Iam In Console");
